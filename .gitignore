@@ -4,3 +4,8 @@ src_managed/
 project/boot/
 .history
 .cache
+*.iml
+*.ipr
+*.iws
+.idea
+out
