@@ -1,7 +1,9 @@
-import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.mllib.classification.{SVMModel, SVMWithSGD}
+package linear_models
+
+import org.apache.spark.mllib.classification.SVMWithSGD
 import org.apache.spark.mllib.evaluation.BinaryClassificationMetrics
 import org.apache.spark.mllib.util.MLUtils
+import org.apache.spark.{SparkConf, SparkContext}
 
 object LinearModels {
 

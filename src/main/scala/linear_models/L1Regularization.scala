@@ -1,7 +1,9 @@
-import org.apache.spark.{SparkContext, SparkConf}
+package linear_models
+
 import org.apache.spark.mllib.classification.SVMWithSGD
 import org.apache.spark.mllib.optimization.L1Updater
 import org.apache.spark.mllib.util.MLUtils
+import org.apache.spark.{SparkConf, SparkContext}
 
 class L1Regularization {
 

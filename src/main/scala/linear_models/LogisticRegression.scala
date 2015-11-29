@@ -1,8 +1,10 @@
+package linear_models
+
 import org.apache.spark.mllib.classification.{LogisticRegressionModel, LogisticRegressionWithLBFGS}
 import org.apache.spark.mllib.evaluation.MulticlassMetrics
 import org.apache.spark.mllib.regression.LabeledPoint
-import org.apache.spark.{SparkContext, SparkConf}
 import org.apache.spark.mllib.util.MLUtils
+import org.apache.spark.{SparkConf, SparkContext}
 
 /**
   * Created by b3j90 on 29/11/15.
