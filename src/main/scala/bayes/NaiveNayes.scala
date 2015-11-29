@@ -22,6 +22,7 @@ class NaiveNayesClassifier {
     // Divide amont training set and test set
 
   val splits = parsedData.randomSplit(Array(0.6,0.4), seed = 11L)
+  // Since the training data is only used once, it is not necessary to cache it
   val training = splits(0)
   val test = splits(1)
 
