@@ -9,3 +9,4 @@ project/boot/
 *.iws
 .idea
 out
+.idea/*
